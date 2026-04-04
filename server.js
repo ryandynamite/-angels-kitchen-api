@@ -11,6 +11,7 @@ const CLAUDE_KEY = process.env.CLAUDE_API_KEY;
 
 // ===== CORS — only allow requests from your Netlify app =====
 const allowedOrigins = [
+  'https://jikoni.netlify.app',
   'https://angels-kitchen.netlify.app',
   'https://angelskitchen.netlify.app',
   'http://localhost:3000',
